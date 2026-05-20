@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"C:/Users/futos/Documents/projects/game\" status)",
+      "Bash(git -C \"C:/Users/futos/Documents/projects/game\" remote -v)",
+      "Bash(npm -v)",
+      "WebSearch",
+      "WebFetch(domain:openrouter.ai)",
+      "WebFetch(domain:costgoat.com)",
+      "WebFetch(domain:tokentab.dev)",
+      "PowerShell(npx tsc --noEmit -p tsconfig.json 2>&1 | Select-Object -First 40; Write-Output \"EXITCODE=$LASTEXITCODE\")",
+      "PowerShell(npx tsc --noEmit -p tsconfig.json 2>&1 | Select-Object -First 20; Write-Output \"EXITCODE=$LASTEXITCODE\")",
+      "PowerShell(npx tsc --noEmit -p tsconfig.json 2>&1 | Select-Object -First 30; Write-Output \"EXITCODE=$LASTEXITCODE\")"
+    ]
+  }
+}
