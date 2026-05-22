@@ -8,7 +8,7 @@
  * @module
  */
 
-import type * as probe from "../probe.js";
+import type * as seed from "../seed.js";
 
 import type {
   ApiFromModules,
@@ -17,7 +17,7 @@ import type {
 } from "convex/server";
 
 declare const fullApi: ApiFromModules<{
-  probe: typeof probe;
+  seed: typeof seed;
 }>;
 
 /**
